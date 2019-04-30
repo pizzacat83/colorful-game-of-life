@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    </head>
+    <body>
+        <div>
+            <div>
+            <canvas id="canvas" height=480 width=640></canvas>
+            </div>
+            <div>
+                <button onclick="init();">初期化</button> <button onclick="start();">スタート</button> <button onclick="pause();">一時停止</button>
+                <span id="generation">0</span>世代目<br>
+                <button onclick="download();"><a id="download">ダウンロード</a></button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+    
+</html>
